@@ -1,0 +1,223 @@
+*{
+    /* border: 1px solid red; */
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    
+    /* padding: 0; */
+    
+}
+
+
+/* ---------------------header------------- */
+.header{
+    height: 10vh;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    /* background-color:#000; */
+}
+
+
+.div{
+    height: 5vh;
+    width: 33.3333333%;
+}
+.logo{
+    flex: 1;
+    display: flex;
+}
+.btnline{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:300;
+    font-size: 20px;
+
+}
+.logobtn{
+    flex: 2;
+    color: black
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-weight:600;
+    font-size: 23px;
+}
+.search{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.mic{
+    border: none;
+    
+    display:block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    
+}
+input{
+    width: 65%;
+    height: 40px;
+    padding: 0 10px;
+    color: #000;
+    border: 1px solid #BEBEBE;
+    border-radius: 25px;
+    background: transparent;
+    /* z-index: 2 */
+}
+.account{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-right: 10px;
+}
+sup{
+    font-size: 10px;
+}
+/* ------------------------------------------------- */
+
+/* -----------------sidebar----------------------------- */
+.sidebarMain{
+    display: flex;
+    /* background-color:#000; */
+
+}
+.sidebar{
+    width: 20%;
+    height: 254.6vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+.sidediv{
+    width: 100%;
+}
+.div1{
+   
+    height: 24.4vh;
+}
+.divyou{
+    height: 42.4vh;
+    
+    
+    
+}
+.divsub{
+    height: 55vh;    
+}
+.divexp{
+    height: 72.4vh;
+}
+.divmore{
+    height: 30.4vh;
+}
+.home{
+    width: 100%;
+    height: 6.4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homebtn{
+    width: 80%;
+    font-size: 15px;
+    border-radius: 10px;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    border: none;
+    font-weight: 800;
+    
+}
+
+/* -------------------------------------- */
+
+/* ----------------------main---------------------- */
+.main{
+    width: 80%;
+    height: 200vh;
+}
+.vid{
+    width: 100%;
+    height: 37.8vh;
+    display: flex;
+    align-items: center;
+}
+.maintop{
+    width: 100%;
+    height: 10vh;
+
+}
+.video{
+    height: 80%;
+    width: 33.333333%;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: #BEBEBE;
+}
+.maintop{
+    display: flex;
+    /* align-items: center; */
+}
+.recom{
+    flex: 40;
+    height: 40px;
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    justify-content: space-around;
+}
+.barrow{
+    flex: 1;
+   
+}
+.barrow1{
+    background-color: transparent;
+    border: none;
+    display:block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: black
+    font-size: 25px;
+    font-weight: 100;
+
+    
+}
+.recom1{
+    width: auto;
+    background-color: #BEBEBE;
+    font-weight:500;
+    color: black;
+    font-size: 17px;
+    padding-top: 6px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    
+}
+/* ------------------------------------------------------ */
+.btn3{
+font-size: 12px;
+color: lightslategray;
+text-align: left;
+}
+.btn4{
+    font-size: 13px;
+    color: gray;
+}
+.btn2{
+    background-color: white;
+    font-weight: 100;
+}
